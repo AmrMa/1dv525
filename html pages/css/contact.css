@@ -18,10 +18,11 @@ a:link, a:visited {
     text-align: center; 
     text-decoration: none;
     display: inline-block;
+	 background-color: black;
 }
 
 a:hover, a:active {
-    background-color: red;
+    background-color: gray;
 }
 aside { float:right; }
  body {

@@ -1,0 +1,72 @@
+The CSS type selector matches elements by node
+ name. In other words, 
+ it selects all elements of the given 
+ type within a document.
+
+/* All <a> elements. */
+a {
+  color: purple;
+}
+----------------------------------------------
+The CSS class selector matches elements 
+based on the contents of their class attribute.
+
+/* All elements with class="spacious" */
+.spacious {
+  margin: 2em;
+}
+--------------------------------------------
+In an HTML document, the CSS ID selector
+ matches an element based on the value of 
+ its id attribute. The selected element's
+ ID attribute must match exactly the value
+ given in the selector.
+
+/* The element with id="demo" */
+div#demo {
+  border: red 2px solid;
+}
+------------------------------------------------
+The CSS universal selector (*) matches
+ elements of any type.
+
+* {
+  color: green;
+}
+--------------------------------------------
+The CSS attribute selector matches elements 
+based on the presence or value of a given 
+attribute.
+a[href="https://example.org"] {
+  color: green;
+}
+-------------------------------------------
+
+
+a: hover   the two points are called a caller. this 
+is called pseude selector.
+
+
+div li
+{
+target li when it is decendant of div.
+}
+
+div>p
+{
+p should be direct chiled in order to be targeted.
+}
+ + is to target siblings.
+
+
+
+
+
+
+
+
+
+
+
+
+
