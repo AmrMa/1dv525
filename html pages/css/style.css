@@ -26,6 +26,7 @@ aside { float:right; }
 }
 * {
    color: #CCCCCC;
+  
 }
 
 nav{
@@ -45,10 +46,20 @@ header{
    
 }
 footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
+  bottom : 0;
+     height:60px;
+     margin-top : 40px;
+     text-align: center ;
+     font-size: 15px ;
+     font-family: 'Lato' ;
 }
+
+
+
+
+
+
+
+
+
 
